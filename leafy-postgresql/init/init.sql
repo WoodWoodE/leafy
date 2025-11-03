@@ -13,7 +13,7 @@ CREATE TABLE users (
 -- Plants table creation
 CREATE TABLE plants (
     plant_id SERIAL PRIMARY KEY,
-    plant_name VARCHAR(50) NOT NULL,
+    plant_name VARCHAR(50) NOT NULL, 
     plant_type VARCHAR(50) NOT NULL,
     plant_desc VARCHAR(255),
     image_url VARCHAR(255),
