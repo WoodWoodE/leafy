@@ -13,7 +13,7 @@ export default {
   name: 'NavBar',
 };
 </script>
-<style scoped>
+<style scoped> 
 nav {
   background-color: #ffffff;
   border-bottom: 2px solid #eaeaea;
