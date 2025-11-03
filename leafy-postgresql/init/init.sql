@@ -11,7 +11,7 @@ CREATE TABLE users (
 );
 
 -- Plants table creation
-CREATE TABLE plants (
+CREATE TABLE plants ( 
     plant_id SERIAL PRIMARY KEY,
     plant_name VARCHAR(50) NOT NULL,
     plant_type VARCHAR(50) NOT NULL,

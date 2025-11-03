@@ -12,7 +12,7 @@ export default {
   name: "BasicPopup",
   computed: {
     ...mapState(["popup"]),
-    popupBackgroundColor() {
+    popupBackgroundColor() { 
       if (this.popup.status === "error") {
         return "#e74c3c"; // Red color for error status
       } else {
