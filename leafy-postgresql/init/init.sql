@@ -18,7 +18,7 @@ CREATE TABLE plants (
     plant_desc VARCHAR(255),
     image_url VARCHAR(255),
     temperature_low FLOAT NOT NULL,
-    temperature_high FLOAT NOT NULL,
+    temperature_high FLOAT NOT NULL, 
     humidity_low FLOAT NOT NULL,
     humidity_high FLOAT NOT NULL,
     watering_interval INT NOT NULL,
